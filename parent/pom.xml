@@ -6,6 +6,7 @@
     <groupId>cn.wbomb.exchange</groupId>
     <artifactId>parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <packaging>pom</packaging>
 
     <!-- 继承自SpringBoot Starter Parent -->

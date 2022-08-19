@@ -7,6 +7,18 @@
     <groupId>cn.wbomb.exchange</groupId>
     <artifactId>build</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Warp Exchange</name>
 
-
+    <modules>
+        <module>../common</module>
+        <module>../config</module>
+        <module>../parent</module>
+        <module>../push</module>
+        <module>../quotation</module>
+        <module>../trading-api</module>
+        <module>../trading-engine</module>
+        <module>../trading-sequencer</module>
+        <module>../ui</module>
+    </modules>
 </project>
