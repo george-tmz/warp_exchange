@@ -6,9 +6,11 @@ spring:
   application:
     name: config-server
   profiles:
+    # 从文件读取配置时，Config Server激活的profile必须设定为native
     active: native
   cloud:
     config:
       server:
         native:
+          # 配置文件搜索路径
           search-locations: file:./config-repo, file:../config-repo, file:../../config-repo, file:../../../config-repo
